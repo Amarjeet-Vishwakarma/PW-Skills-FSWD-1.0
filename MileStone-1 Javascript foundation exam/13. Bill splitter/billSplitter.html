@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bill Splitter</title>
+<link rel="stylesheet" href="./billSplitter..css">
+</head>
+<body>
+  <div class="container">
+    <h1>Restaurant Bill Splitter</h1>
+    <div>
+      <label for="numberOfDishes">Number of Dishes:</label>
+      <input type="number" id="numberOfDishes" min="1">
+      <button onclick="generateDishPriceInputs()">Generate Prices</button>
+    </div>
+    <div id="dishPrices" class="dish-prices">
+      <!-- Dish prices will be dynamically generated here -->
+    </div>
+    <div>
+      <label for="people">Number of People:</label>
+      <input type="number" id="people" min="1">
+    </div>
+    <button onclick="calculateBill()">Calculate Bill</button>
+    <div id="results">
+      <p>Total Bill: <span id="totalBill"></span></p>
+      <p>Bill per Person: <span id="billPerPerson"></span></p>
+    </div>
+  </div>
+
+  <script src="./billSplitter.js"></script>
+</body>
+</html>

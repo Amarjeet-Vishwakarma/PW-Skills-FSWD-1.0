@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    margin: 0 30px;
+}
+body{
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h1{
+    margin-bottom: 25px;
+    font-weight: 900;
+    text-align: center;
+    color: gold;
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: gold;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: aqua;
+    text-align: center;
+    border: 2px solid gold;
+    width: 10%;
+    cursor: pointer;
+}
+input:focus {
+    outline: none;
+}
+p{
+    text-align: justify;
+    margin-top: 25px;
+}

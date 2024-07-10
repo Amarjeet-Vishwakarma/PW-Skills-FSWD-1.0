@@ -1,0 +1,106 @@
+/* Reset some default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    /* width: 100vw; */
+
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#input-section {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#input-section label {
+    margin-right: 10px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+
+}
+
+#taskBtn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+#taskBtn:hover {
+    background-color: #45a049;
+}
+
+#checkMaster {
+    margin-top: 20px;
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todoClass {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todoClass span {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.todoClass input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.fa {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #e74c3c;
+}
+
+.fa:hover {
+    color: #c0392b;
+}
+
+#clearAllBtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+#clearAllBtn:hover {
+    background-color: #e53935;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title of the project -->
+    <title>Highest Marks</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./highestMarks.css">
+</head>
+<body>
+    <div class="bodyShadow">
+        <h1>Highest Marks Evalution</h1>
+        <h3>Enter marks of all the five students</h3>
+
+        <form  class="studentForm">
+            <label for="marks1">student 1</label>
+            <input type="text" id="number1" name="marks[]">
+
+             <label for="marks2">student 2</label>
+            <input type="text" id="number2" name="marks[]">
+
+             <label for="marks3">student 3</label>
+            <input type="text" id="number3" name="marks[]">
+
+             <label for="marks4">student 4</label>
+            <input type="text" id="number4" name="marks[]">
+
+             <label for="marks5">student 5</label>
+            <input type="text" id="number5" name="marks[]">
+
+            <button id="button">Find highest marks</button>
+        </form>
+        <div id="blankContainer"></div>
+    </div>
+
+    <!-- JavaScript link -->
+    <script src="./highestMarks.js"></script>
+</body>
+</html>

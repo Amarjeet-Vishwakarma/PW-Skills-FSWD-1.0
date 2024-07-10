@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Discount</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./discount.css">
+</head>
+<body>
+    <header>
+        <h1>Calculate Discount Price</h1>
+    </header>
+    <div class="content">
+        <span>
+            <label for="actualPrice">Enter product origional price : </label>
+            <input id="actualPrice" type="number">
+        </span>
+        <span>
+            <label for="discountedPrice">Enter product discounted price : </label>
+            <input id="discountedPrice" type="number">
+        </span>
+        <span class="btn">
+            <button id="disc-btn">Show Discount</button>
+            <button onclick="location.reload()">Refresh</button>
+        </span>
+    </div>
+    <footer>
+        <div class="output"></div>
+        <img src="./congrats clipart gif.gif" alt="" class="cong-img">
+    </footer>
+    <!-- link javascript -->
+    <script src="./discount.js"></script>
+</body>
+</html>

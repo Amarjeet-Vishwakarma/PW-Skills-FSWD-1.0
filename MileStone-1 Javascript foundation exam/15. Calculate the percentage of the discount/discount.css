@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    margin-top: 5%;
+    text-align: center;
+}
+h1{
+    color: rgb(0, 255, 30);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    gap: 15px;  
+}
+input{
+    text-align: center;
+    background: transparent;
+    border: 3px solid rgb(0, 255, 30);
+    color: rgb(0, 255, 30);
+}
+input[type="number"]::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+  }
+
+button{
+    font-size: 10px;
+    font-weight: 800;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 30);
+    color: white;
+    cursor: pointer;
+    border-color: white;
+    
+}  
+button:hover{
+    background-color: white;
+    color: rgb(0, 255, 30);
+}
+.output{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+.discount-percentage{
+    color: rgb(0, 255, 30);
+}
+
+.cong-img{
+    display: none;
+    margin: auto;
+}

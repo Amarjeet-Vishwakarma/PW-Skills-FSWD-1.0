@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Rental Cost</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./calculateRentalCost.css">
+</head>
+<body>
+    <!-- started -->
+    <div class="container">
+    <h1>Calculate rental cost for car</h1>
+    <select id="sltopt">
+        <option value="car type" hidden>choose car type</option>
+        <option value="Economy">Economy</option>
+        <option value="Midsize">Midsize</option>
+        <option value="Luxury">Luxury</option>
+    </select>
+
+    <br><br>
+    
+    <input type="text" placeholder="rent duration(days)" id="rentDuration">
+
+    <br><br>
+
+    <button onclick="calculateRent()">Calculate Rent</button>
+    <button onclick="location.reload()">Refresh</button>
+
+    <p id="output"></p>
+
+</div>
+
+    <!-- Link JavaScript -->
+    <script src="./calculateRentalCost.js"></script>
+</body>
+</html>

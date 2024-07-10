@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+body{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+button{
+    margin-top: 5%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+li{
+    list-style: none;
+
+}
+li::before{
+    content: "→";
+    margin-right: 1em;
+    
+}

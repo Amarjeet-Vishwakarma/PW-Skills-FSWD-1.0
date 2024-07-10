@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #000;
+    /* box-shadow: 0 0 40px greenyellow; */
+    border: 2px solid pink;
+    color: white;
+}
+div{
+    border: 2px solid greenyellow;
+    box-shadow: 0 0 40px greenyellow;
+    padding: 50px 50px;
+    
+}
+#rndmBtn{
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#rndmBtn:hover{
+    background-color: greenyellow;
+    color: white;
+}
+.output{
+    color: white;
+   font-size: 30px;
+   display: none;
+   justify-content: center;
+}

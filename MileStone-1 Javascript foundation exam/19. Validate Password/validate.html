@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate Password</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./validate.css">
+</head>
+<body>
+    <h1>Validate Password</h1>
+    <form id="login-form">
+        <div class="email">
+            <label for="email-input">Enter Email</label>
+            <input type="text" id="email-input" required>
+        </div>
+        <div>
+            <label for="Password-input">Enter Password</label>
+            <input type="text" id="input-password" required>
+        </div>
+        <button id="sub-button">Submit</button>
+    </form>
+    
+    <div class="output">
+        <p id="error-message">Invalid email or password</p>
+        <p id="validation-message">Valid email and password</p>
+    </div>
+
+    <!-- Link JavaScript -->
+    <script src="./validate.js"></script>
+</body>
+</html>
